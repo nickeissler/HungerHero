@@ -1,0 +1,138 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #9dbefc;
+}
+
+h1 {
+  height: inherit;
+  font-size: 75px;
+  color: white;
+  background-color: #2a2d32;
+  margin: 0;
+  padding: 0;
+}
+
+h6 {
+  height: 0;
+  text-align: center;
+  right: 500px;
+}
+
+.maindiv{
+  text-align: center;
+}
+
+.mainform{
+  background-color: #9dbefc;
+  text-align: center;
+}
+
+.header {
+  height: inherit;
+  font-size: 25px;
+  color: white;
+  background-color: #2a2d32;
+  margin: 0;
+  padding: 0;
+}
+
+.subhead {
+  font-size: 40px;
+  color: black;
+  text-align: left;
+  margin-left: 2in;
+}
+
+.content {
+  font-size: 20px;
+  color: black;
+  text-align: inherit;
+  margin-left: 1in;
+}
+
+.donotmatch {
+  color: red;
+}
+
+.open-msg-btn {
+  background-color: aquamarine;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  opacity: 0.8;
+  position: fixed;
+  bottom: 23px;
+  right: 28px;
+  width: 120px;
+}
+
+.close-chat {
+  background-color: red;
+  color: white;
+  border: none;
+  cursor: pointer;
+  position: absolute;
+  bottom: 415px;
+  right: 10px;
+  margin: 10px 10px;
+  width: 25px;
+  height: 25px;
+  z-index: 10;
+}
+
+.messagebox {
+  background-color: #2a2d32;
+  position: absolute;
+  bottom: 20px;
+  right: 15px;
+  height: 400px;
+  border: 3px solid #2a2d32;
+  z-index: 0;
+}
+
+.message-form {
+  max-width: 300px;
+  padding: 10px;
+  position: relative;
+  height: 300px;
+  background-color: white;
+}
+
+.message-form .msg-input {
+  position: relative;
+  bottom: 5px;
+}
+
+.msgs {
+  table-layout: fixed;
+  white-space: nowrap;
+  display: flex;
+  flex-direction: column-reverse;
+  overflow: scroll;
+  width: 200px;
+  height: 270px;
+}
+
+.r-msg {
+  display: block;
+  text-align: right;
+  background-color: lightgray;
+}
+
+.l-msg {
+  display: block;
+  text-align: left;
+  background-color: bisque;
+}
+
+.notification {
+  position: absolute;
+  background: lightgreen;
+  display: block;
+  top: 0;
+  height: fit-content;
+  right: 100px;
+  height: 80px;
+  width: 250px;
+}
